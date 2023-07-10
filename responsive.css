@@ -1,4 +1,8 @@
 @media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
     h2 {
         font-size: 24px;
     }
@@ -6,6 +10,74 @@
     h3 {
         font-size: 20px;
     }
+
+    .notification-container {
+        height: 48px;
+    }
+
+    .noti-content {
+        align-self: center;
+        margin: 0;
+    }
+
+    .cogo-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .noti-text {
+        flex: 1 1;
+        margin: 0 8px;
+        font-size: 12px;
+    }
+
+    .book-now {
+        margin-left: 5px;
+    }
+
+    .cross {
+        margin-right: 10px;
+    }
+
+    .mobile-navbar {
+        display: flex;
+    }
+
+    .navbar-logo {
+        margin: 0;
+    }
+
+    .navbar-titles,
+    .navbar-auth {
+        display: none;
+    }
+
+
+    .cogo-header-container {
+        width: 100%;
+        background-size: initial;
+    }
+
+    .cogo-header-contains {
+        width: 100%;
+        flex-direction: column-reverse;
+        height: 452px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .cogo-header-desktop-vid {
+        display: none;
+        width: 100%;
+    }
+
+    .cogo-mobile-desktop-vid {
+        display: flex;
+        width: 100%;
+    }
+
 
     .counts-styles-container {
         width: 100%;
