@@ -1,0 +1,266 @@
+@media only screen and (max-width: 768px) {
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .counts-styles-container {
+        width: 100%;
+    }
+
+    .counts-container {
+        padding: 0;
+    }
+
+    .counts-block {
+        width: 50%;
+        text-align: center;
+    }
+
+
+
+    .about-container {
+        flex-direction: column-reverse;
+    }
+
+    .about-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-block h2 {
+        margin-bottom: 10px;
+    }
+
+    .product-list-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .list-card-heading {
+        display: flex;
+        width: 100%;
+        margin-right: 0;
+        font-size: 16px;
+    }
+
+    .list-card-icons {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .ready-container {
+        margin-bottom: 32px;
+    }
+
+    .ready {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .ready-header {
+        padding: 10px 0;
+    }
+
+    .how-container {
+        width: 100%;
+    }
+
+    .how-contains {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 32px;
+    }
+
+    .how-contains h3 {
+        max-width: 258px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    .btn-container {
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cargo-button {
+        margin-bottom: 16px;
+    }
+
+    .stages-container {
+        flex-direction: column;
+    }
+
+    .mobile-image {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .laptop-image {
+        width: 280px;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .stage-container {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .mobile-stage {
+        margin-bottom: 20px;
+    }
+
+    .top-left-arrow,
+    .top-right-arrow,
+    .bottom-left-arrow,
+    .bottom-right-arrow,
+    .stage-image-container {
+        display: none;
+    }
+
+    .industries-container {
+        justify-content: center;
+    }
+
+    .get-started-container,
+    .video-container {
+        margin-bottom: 32px;
+    }
+
+    .get-started-contains {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100% !important;
+        padding-right: 16px !important;
+        padding-left: 16px !important;
+    }
+
+    .get-started-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .know-more-contains {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .grow-text {
+        padding: 10px 0;
+    }
+
+    .blog-container {
+        width: 100%;
+    }
+
+    .blog-cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-cards {
+        width: auto;
+    }
+
+    .blog-image {
+        width: 100%;
+    }
+
+    .view-all-bar {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .subscribe-container {
+        text-align: center;
+    }
+
+    .subscribe-image {
+        display: none;
+    }
+
+    .subscribe-content-container {
+        padding: 0 16px;
+    }
+
+    .mobile-subscribe-button {
+        padding: 0 20px;
+    }
+
+    .mobile-subscribe-form {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .subscribe-email {
+        display: block;
+        width: 100%;
+    }
+
+    .subscribe-button {
+        box-sizing: border-box;
+        display: flex;
+    }
+
+    .link-container,
+    .place-container,
+    .last-container,
+    .whatsapp-container {
+        display: none;
+    }
+
+
+    .mobile-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        font-family: var(--font-family);
+        background: #fbdc00;
+    }
+
+    .acc-container {
+        padding: 16px 0 0;
+        overflow-y: scroll;
+        border-bottom: 0.5px solid rgba(0, 0, 0, .4);
+    }
+
+    .acc-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0;
+        text-align: left;
+        cursor: pointer;
+        border: none;
+    }
+
+    .acc-title {
+        padding: 0 0 16px 16px;
+        margin: 0;
+
+    }
+
+    .acc-icon {
+        transition: .3s;
+        transform: rotate(90deg);
+    }
+
+
+}
