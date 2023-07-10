@@ -1,0 +1,5 @@
+1. While making the website responsive, I considered width=768px as a breakpoint and it works fine for width < 768px and width > 1100px , I am unaware of how should I make it responsive even for the widths in between.
+
+2. The containers while reducing the width size, at a point the elements inside the container becomes unresponsive (like a photo) and only the container width and height changes, was not able to figure out those. 
+
+3. The color for the navbar is always yellow even after scroll which should not be the case, I think Javascript is used here.
